@@ -57,7 +57,7 @@ namespace FishShop
 
         private static string GetNPCNameValue(int id)
         {
-            if (id < Main.Terraria.ID.whateverID.Count && id != 0)
+            if (id < Terraria.ID.whateverID.Count && id != 0)
                 return Lang.GetNPCNameValue(id);
             return "";
         }
