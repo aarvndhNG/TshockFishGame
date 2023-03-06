@@ -410,7 +410,7 @@ namespace FishShop
                 passed = NPCHelper.CheckNPCActive(npcID.ToString());
                 if (!passed)
                 {
-                    if (npcID < Main.maxNPCTypes)
+                    if (npcID < Main.whatever)
                         s = $"{TShock.Utils.GetNPCById(npcID).FullName} 不在场";
                     else
                         s = $"找不到id为 {npcID} 的NPC";
