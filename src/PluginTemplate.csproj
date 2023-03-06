@@ -54,10 +54,10 @@
 
   <ItemGroup>
     <Reference Include="ModFramework">
-      <HintPath>..\..\@lib\1.4.4.5\ModFramework.dll</HintPath>
+      <HintPath>J:\Downloads\TShock-Beta-win-x64-Release-4\bin\ModFramework.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\@lib\1.4.4.5\Newtonsoft.Json.dll</HintPath>
+      <HintPath>J:\Downloada\TShock-Beta-win-x64-Release-4\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="OTAPI">
       <HintPath>J:\Downloads\TShock-Beta-win-x64-Release-4\bin\OTAPI.dll</HintPath>
