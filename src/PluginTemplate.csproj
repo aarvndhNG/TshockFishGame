@@ -93,6 +93,7 @@
     <Compile Include="UnlockID.cs" />
     <Compile Include="WishHelper.cs" />
     <Compile Include="utils.cs" />
+    <Compile Include="Settings.cs" />
   </ItemGroup>
 
 </Project>
