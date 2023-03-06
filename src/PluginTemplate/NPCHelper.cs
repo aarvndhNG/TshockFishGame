@@ -57,7 +57,7 @@ namespace FishShop
 
         private static string GetNPCNameValue(int id)
         {
-            if (id < Terraria.ID.whateverID.Count && id != 0)
+            if (id < Terraria.ID.NPCID.Count && id != 0)
                 return Lang.GetNPCNameValue(id);
             return "";
         }
@@ -68,7 +68,7 @@ namespace FishShop
             var found = new List<int>();
             NPC npc = new();
             string nameLower = name.ToLowerInvariant();
-            for (int i = -17; i < Terraria.ID.whateverID.Count; i++)
+            for (int i = -17; i < Terraria.ID.NPCID.Count; i++)
             {
                 string englishName = EnglishLanguage.GetNpcNameById(i).ToLowerInvariant();
 
@@ -80,7 +80,7 @@ namespace FishShop
                     || englishName?.StartsWith(nameLower) == true)
                     found.Add(npc.netID);
             }
-            for (int i = -17; i < Terraria.ID.whateverID.Count; i++)
+            for (int i = -17; i < Terraria.ID.NPCID.Count; i++)
             {
                 string englishName = Lang.GetNPCNameValue(i);
 
