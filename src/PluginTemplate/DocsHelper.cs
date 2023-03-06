@@ -76,7 +76,7 @@ namespace FishShop
             StringBuilder buffer = new StringBuilder();
             buffer.AppendLine("id,名称");
 
-            for (int i = -65; i < Main.Terraria.ID.whateverID.Count; i++)
+            for (int i = -65; i < Terraria.ID.whateverID.Count; i++)
             {
                 NPC npc = new NPC();
                 npc.SetDefaults(i);
