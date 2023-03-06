@@ -94,7 +94,7 @@ namespace FishShop
             StringBuilder buffer = new StringBuilder();
             buffer.AppendLine("id,名称,描述");
 
-            for (int i = 0; i < Main.Terraria.ID.whateverID.Count; i++)
+            for (int i = 0; i < Terraria.ID.whateverID.Count; i++)
             {
                 if (!string.IsNullOrEmpty(Lang.GetBuffName(i)))
                 {
