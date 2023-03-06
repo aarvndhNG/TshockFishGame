@@ -54,7 +54,7 @@ namespace FishShop
             StringBuilder buffer = new StringBuilder();
             buffer.AppendLine("id,名称,描述");
 
-            for (int i = 1; i < Terraria.ID.whateverID.Count; i++)
+            for (int i = 1; i < Terraria.ID.ItemID.Count; i++)
             {
                 Item item = new Item();
                 item.SetDefaults(i);
@@ -76,7 +76,7 @@ namespace FishShop
             StringBuilder buffer = new StringBuilder();
             buffer.AppendLine("id,名称");
 
-            for (int i = -65; i < Terraria.ID.whateverID.Count; i++)
+            for (int i = -65; i < Terraria.ID.NPCID.Count; i++)
             {
                 NPC npc = new NPC();
                 npc.SetDefaults(i);
@@ -94,7 +94,7 @@ namespace FishShop
             StringBuilder buffer = new StringBuilder();
             buffer.AppendLine("id,名称,描述");
 
-            for (int i = 0; i < Terraria.ID.whateverID.Count; i++)
+            for (int i = 0; i < Terraria.ID.BuffID.Count; i++)
             {
                 if (!string.IsNullOrEmpty(Lang.GetBuffName(i)))
                 {
