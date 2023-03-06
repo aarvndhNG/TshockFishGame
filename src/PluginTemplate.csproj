@@ -89,7 +89,6 @@
     <Compile Include="Settings.cs" />
     <Compile Include="ShopHelper.cs" />
     <Compile Include="ShopItemID.cs" />
-    <Compile Include="Settings.cs" />
     <Compile Include="TShockFishShop.cs" />
     <Compile Include="UnlockID.cs" />
     <Compile Include="WishHelper.cs" />
