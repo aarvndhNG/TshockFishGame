@@ -188,7 +188,7 @@ namespace FishShop
             {
                 int _stack = d.stack * amount;
                 int _id = d.id;
-                if (_id == 0 || _id > Main.maxItemTypes)
+                if (_id == 0 || _id > Main.Terraria.ID.whateverID.Count)
                 {
                     utils.Log($"[CheckCost]物品id{_id}无效");
                     continue;
