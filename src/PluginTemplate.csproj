@@ -69,5 +69,31 @@
       <HintPath>J:\Downloads\TShock-Beta-win-x64-Release-4\ServerPlugins\TShockAPI.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuffHelper.cs" />
+    <Compile Include="CmdHelper.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="CostID.cs" />
+    <Compile Include="DocsHelper.cs" />
+    <Compile Include="IDSet.cs" />
+    <Compile Include="InventoryHelper.cs" />
+    <Compile Include="ItemData.cs" />
+    <Compile Include="NPCHelper.cs" />
+    <Compile Include="PlayerRecordData.cs" />
+    <Compile Include="RecordData.cs" />
+    <Compile Include="RecordFile.cs" />
+    <Compile Include="Records.cs" />
+    <Compile Include="SetConfig.cs" />
+    <Compile Include="SetMappingData.cs" />
+    <Compile Include="SetShopData.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ShopHelper.cs" />
+    <Compile Include="ShopItemID.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="TShockFishShop.cs" />
+    <Compile Include="UnlockID.cs" />
+    <Compile Include="WishHelper.cs" />
+    <Compile Include="utils.cs" />
+  </ItemGroup>
 
 </Project>
